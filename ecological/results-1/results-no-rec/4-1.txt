@@ -1,0 +1,33 @@
+results/train/pos-output-4-1-1.txt
+[y,[[n,e,b,r,i,a, ,b,r,e,v,i,c,o,l,l,i,s],[f,o,o,d],[d,i,p,t,e,r,a],[c,o,l,l,e,m,b,o,l,a],[m,i,t,e,s],[s,p,i,d,e,r,s],[e,a,r,t,h,w,o,r,m,s]]]
+results/train/pos-output-4-1-2.txt
+[y,[[f,o,r,f,i,c,u,l,a, ,a,u,r,i,c,u,l,a,r,i,a, ,l],[e,a,t],[b,r,o,o,m],[t,h,e, ,e,g,g,s, ,a,n,d, ,l,a,r,v,a,e, ,o,f, ,p,h,y,t,o,d,e,c,t,a, ,o,l,i,v,a,c,e,a, ,(,f,o,r,s,t,e,r,), ,(,c,h,r,y,s,o,m,e,l,i,d,a,e,)],[l,e,u,c,o,p,t,e,r,a, ,s,p,a,r,t,i,f,o,l,i,e,l,l,a],[a,p,h,i,d]]]
+results/train/pos-output-4-1-3.txt
+[y,[[h,., ,r,u,f,i,p,e,s],[f,e,e,d,i,n,g, ,o,n],[l,a,r,v,a,e],[t,e,n,t,h,r,e,d,i,n,i,d,a,e]]]
+results/train/pos-output-4-1-4.txt
+[y,[[a,g,o,n,u,m, ,d,o,r,s,a,l,e],[e,a,t],[a,p,h,i,d]]]
+clauses: 1 invented predicates: 0
+clauses: 2 invented predicates: 0
+clauses: 2 invented predicates: 1
+clauses: 3 invented predicates: 0
+clauses: 3 invented predicates: 1
+clauses: 3 invented predicates: 2
+clauses: 4 invented predicates: 0
+clauses: 4 invented predicates: 1
+clauses: 4 invented predicates: 2
+clauses: 4 invented predicates: 3
+clauses: 5 invented predicates: 0
+clauses: 5 invented predicates: 1
+clauses: 5 invented predicates: 2
+clauses: 5 invented predicates: 3
+clauses: 5 invented predicates: 4
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0

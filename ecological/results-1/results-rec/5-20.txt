@@ -1,0 +1,28 @@
+results/train/pos-output-5-20-1.txt
+[y,[[n,e,b,r,i,a, ,b,r,e,v,i,c,o,l,l,i,s],[f,o,o,d],[d,i,p,t,e,r,a],[c,o,l,l,e,m,b,o,l,a],[m,i,t,e,s],[s,p,i,d,e,r,s],[e,a,r,t,h,w,o,r,m,s]]]
+results/train/pos-output-5-20-2.txt
+[y,[[f,e,r,o,n,i,a, ,s,p,p,.],[e,a,t],[w,i,r,e,w,o,r,m,s],[c,a,b,b,a,g,e, ,r,o,o,t, ,f,l,y, ,e,g,g,s, ,a,n,d, ,l,a,r,v,a,e],[w,o,r,m,s],[s,l,u,g,s],[s,p,i,d,e,r,s],[c,a,r,a,b,i,d,a,e],[l,a,r,v,a,e],[l,e,p,i,d,o,p,t,e,r,a]]]
+results/train/pos-output-5-20-3.txt
+[y,[[a,g,o,n,u,m, ,d,o,r,s,a,l,e],[f,e,d],[a,p,h,i,d],[p,e,n,t,a,t,r,i,c,h,o,p,u,s, ,f,r,a,g,a,e,f,o,l,i,i, ,c,o,c,k,e,r]]]
+results/train/pos-output-5-20-4.txt
+[y,[[n,e,b,r,i,a, ,b,r,e,v,i,c,o,l,l,i,s],[f,o,o,d],[d,i,p,t,e,r,a],[c,o,l,l,e,m,b,o,l,a],[m,i,t,e,s],[s,p,i,d,e,r,s],[e,a,r,t,h,w,o,r,m,s]]]
+results/train/pos-output-5-20-5.txt
+[y,[[n,e,b,r,i,a, ,b,r,e,v,i,c,o,l,l,i,s],[f,o,o,d],[d,i,p,t,e,r,a],[c,o,l,l,e,m,b,o,l,a],[m,i,t,e,s],[s,p,i,d,e,r,s],[e,a,r,t,h,w,o,r,m,s]]]
+clauses: 1 invented predicates: 0
+clauses: 2 invented predicates: 0
+clauses: 2 invented predicates: 1
+clauses: 3 invented predicates: 0
+f(A,B):- find_species(A,C), f(C,B).
+f(A,B):- find_predation(A,C), f(C,B).
+f(A,B):- find_species(A,C), find_species(C,B).
+time,0.0055620670318603516
+score,0
+score,1
+score,1
+score,1
+score,1
+score,1
+score,0
+score,1
+score,1
+score,1

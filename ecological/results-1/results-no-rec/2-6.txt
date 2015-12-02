@@ -1,0 +1,29 @@
+results/train/pos-output-2-6-1.txt
+[y,[[f,e,r,o,n,i,a, ,s,p,p,.],[e,a,t],[w,i,r,e,w,o,r,m,s],[c,a,b,b,a,g,e, ,r,o,o,t, ,f,l,y, ,e,g,g,s, ,a,n,d, ,l,a,r,v,a,e],[w,o,r,m,s],[s,l,u,g,s],[s,p,i,d,e,r,s],[c,a,r,a,b,i,d,a,e],[l,a,r,v,a,e],[l,e,p,i,d,o,p,t,e,r,a]]]
+results/train/pos-output-2-6-2.txt
+[y,[[l,o,r,i,c,e,r,a, ,p,i,l,i,c,o,r,n,i,s],[e,a,t],[s,p,i,d,e,r,s],[j,u,v,e,n,i,l,e, ,l,i,t,h,o,b,i,u,s, ,v,a,r,i,e,g,a,t,u,s]]]
+clauses: 1 invented predicates: 0
+clauses: 2 invented predicates: 0
+clauses: 2 invented predicates: 1
+clauses: 3 invented predicates: 0
+clauses: 3 invented predicates: 1
+clauses: 3 invented predicates: 2
+clauses: 4 invented predicates: 0
+clauses: 4 invented predicates: 1
+clauses: 4 invented predicates: 2
+clauses: 4 invented predicates: 3
+clauses: 5 invented predicates: 0
+clauses: 5 invented predicates: 1
+clauses: 5 invented predicates: 2
+clauses: 5 invented predicates: 3
+clauses: 5 invented predicates: 4
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0

@@ -1,0 +1,29 @@
+clauses: 1 invented predicates: 0
+clauses: 2 invented predicates: 0
+clauses: 2 invented predicates: 1
+clauses: 3 invented predicates: 0
+clauses: 3 invented predicates: 1
+f(A,B):- open_interval4(A,B,['a','m','e','>'],['<','/','n','a']).
+f(A,B):- f_1(A,C), f(C,B).
+f_1(A,B):- open_interval4(A,B,['a','m','e','>'],['<','/','n','a']).
+time,0.4284629821777344
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1

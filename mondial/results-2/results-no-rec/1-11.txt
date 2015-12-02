@@ -1,0 +1,35 @@
+clauses: 1 invented predicates: 0
+clauses: 2 invented predicates: 0
+clauses: 2 invented predicates: 1
+clauses: 3 invented predicates: 0
+clauses: 3 invented predicates: 1
+clauses: 3 invented predicates: 2
+clauses: 4 invented predicates: 0
+clauses: 4 invented predicates: 1
+clauses: 4 invented predicates: 2
+clauses: 4 invented predicates: 3
+f(A,B):- f_3(A,C), f_2(C,B).
+f_3(A,B):- f_2(A,C), f_1(C,B).
+f_2(A,B):- f_1(A,C), f_1(C,B).
+f_1(A,B):- open_interval(A,B,['>'],['<']).
+time,0.25397491455078125
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,0
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1

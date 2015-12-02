@@ -1,0 +1,30 @@
+true.
+
+clauses: 1 invented predicates: 0
+clauses: 2 invented predicates: 0
+clauses: 2 invented predicates: 1
+clauses: 3 invented predicates: 0
+clauses: 3 invented predicates: 1
+clauses: 3 invented predicates: 2
+clauses: 4 invented predicates: 0
+clauses: 4 invented predicates: 1
+clauses: 4 invented predicates: 2
+[sub(pab_qac_rcb,[f,f_2,f_2]),sub(pab_qac_rcb,[f_2,find_patient_id,find_age]),sub(pab_qac_rcb,[f_2,f_1,find_feev]),sub(pab_qabxy,[f_1,open_interval,[£],[$]])]
+f(A,B):- f_2(A,C), f_2(C,B).
+f_2(A,B):- find_patient_id(A,C), find_age(C,B).
+f_2(A,B):- f_1(A,C), find_feev(C,B).
+f_1(A,B):- open_interval(A,B,['£'],['$']).
+time,2.682347059249878
+score,0
+score,1
+score,1
+score,0
+score,0
+score,0
+score,0
+score,1
+score,0
+score,1
+true.
+
+

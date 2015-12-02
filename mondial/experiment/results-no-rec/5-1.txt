@@ -1,0 +1,23 @@
+clauses: 1 invented predicates: 0
+f(A,B):- open_interval4(A,B,['a','m','e','>'],['<','/','n','a']).
+time,0.03356313705444336
+score,0
+score,1
+score,1
+score,1
+score,0
+score,0
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1

@@ -1,0 +1,21 @@
+results/train/pos-output-1-1-1.txt
+[y,[[f,o,r,f,i,c,u,l,a, ,a,u,r,i,c,u,l,a,r,i,a, ,l],[f,e,d],[p,l,a,n,t, ,m,a,t,e,r,i,a,l],[a,p,h,i,d]]]
+clauses: 1 invented predicates: 0
+clauses: 2 invented predicates: 0
+clauses: 2 invented predicates: 1
+clauses: 3 invented predicates: 0
+clauses: 3 invented predicates: 1
+f(A,B):- f_1(A,C), f_1(C,B).
+f_1(A,B):- find_species(A,C), find_predation(C,B).
+f_1(A,B):- find_species(A,C), find_species(C,B).
+time,0.0017390251159667969
+score,1
+score,0
+score,0
+score,1
+score,1
+score,0
+score,1
+score,1
+score,1
+score,0

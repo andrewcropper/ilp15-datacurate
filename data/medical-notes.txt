@@ -1,0 +1,45 @@
+*P_001
+*67 year
+66 inch
+*lung disease: not specified, Diagnosis: Unknown
+80.78
+*1.63
+
+P_002
+77
+67 inch
+lung disease: chronic obstructive pulmonary disease, Diagnosis: non-small cell squamous cell carcinoma
+53
+1.29
+
+$$P_001$$67 year$$66 inch$$lung disease: not specified, Diagnosis: Unknown$$80.78$$1.63$$
+$$P_002$$77$$67 inch$$lung disease: chronic obstructive pulmonary disease, Diagnosis: non-small cell squamous cell carcinoma$$53$$1.29$$
+
+
+f1 copyskip_to($), copyskip_to(' '),
+f2 skip_to(': '), copyskip_to($),
+f3 skipto($) copyskip_to($),
+f4 f1 f2
+f f3 f4
+
+f1 open_int(A,C,START,$), open_int(C,B,'$',' ').
+f2 open_int(A,C,'s : ', '$'), open_int(C,B,$,END)
+f f1 f2
+
+
+f(A,B):- f2(A,C), f1(C,B).
+f2(A,B):- open_interval(A,B,[$],[$]).
+f1(A,B):- open_interval(A,B,[$],[ ]).
+f(A,B):- f2(A,C), f2(C,B).
+
+3 columns =
+
+f(A,B):- f3(A,C), f3(C,B).
+f3(A,B):- f2(A,C), f1(C,B).
+f2(A,B):- open_interval(A,B,[$],[$]).
+f1(A,B):- open_interval(A,B,[$],[ ]).
+f3(A,B):- open_interval(A,B,[ ],[$]).
+f3(A,B):- f2(A,C), f2(C,B).
+
+
+w

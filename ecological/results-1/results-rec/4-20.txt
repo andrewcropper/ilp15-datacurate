@@ -1,0 +1,26 @@
+results/train/pos-output-4-20-1.txt
+[y,[[l,o,r,i,c,e,r,a, ,p,i,l,i,c,o,r,n,i,s],[e,a,t],[s,p,i,d,e,r,s],[j,u,v,e,n,i,l,e, ,l,i,t,h,o,b,i,u,s, ,v,a,r,i,e,g,a,t,u,s]]]
+results/train/pos-output-4-20-2.txt
+[y,[[a,g,o,n,u,m, ,d,o,r,s,a,l,e],[e,a,t],[c,a,b,b,a,g,e, ,r,o,o,t, ,f,l,y, ,e,g,g,s, ,a,n,d, ,l,a,r,v,a,e]]]
+results/train/pos-output-4-20-3.txt
+[y,[[h,., ,r,u,f,i,p,e,s],[f,e,e,d,i,n,g, ,o,n],[l,a,r,v,a,e],[t,e,n,t,h,r,e,d,i,n,i,d,a,e]]]
+results/train/pos-output-4-20-4.txt
+[y,[[h,., ,r,u,f,i,p,e,s],[p,r,e,y],[p,i,e,r,i,s, ,r,a,p,a,e, ,l,., ,(,l,e,p,i,d,o,p,t,e,r,a,), ,l,a,r,v,a,e]]]
+clauses: 1 invented predicates: 0
+clauses: 2 invented predicates: 0
+clauses: 2 invented predicates: 1
+clauses: 3 invented predicates: 0
+f(A,B):- find_species(A,C), f(C,B).
+f(A,B):- find_predation(A,C), f(C,B).
+f(A,B):- find_species(A,B).
+time,0.002850055694580078
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
+score,1
